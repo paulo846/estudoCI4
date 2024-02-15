@@ -11,4 +11,8 @@ class Home extends BaseController
     public function sobre(){
         echo "Agora ninguém me segura galera :D";
     }
+
+    public function wa(){
+        echo "Rota WA";
+    }
 }
