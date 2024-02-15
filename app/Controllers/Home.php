@@ -9,6 +9,6 @@ class Home extends BaseController
         return view('welcome_message');
     }
     public function sobre(){
-        echo "N8N ATUALIZANDO A PARADA";
+        echo "Agora ninguém me segura galera :D";
     }
 }
