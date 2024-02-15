@@ -7,4 +7,4 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::index');
 
-$routes->get('/', 'Home::sobre');
+$routes->get('/sobre', 'Home::sobre');

@@ -8,4 +8,7 @@ class Home extends BaseController
     {
         return view('welcome_message');
     }
+    public function sobre(){
+        echo "Isso é um teste de atualização de container";
+    }
 }
