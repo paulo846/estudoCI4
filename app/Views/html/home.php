@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <div id="mensagem">Carregando...</div>
+    <h1 id="mensagem">Carregando...</h1>
     <script src="assets/js/script.js"></script>
 </body>
 
