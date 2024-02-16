@@ -9,4 +9,7 @@ $routes->get('/', 'Home::index');
 
 $routes->get('/sobre', 'Home::sobre');
 
+
 $routes->get('/wa', 'Home::wa');
+
+$routes->get('/(:any)', 'Home::sobre/$1');

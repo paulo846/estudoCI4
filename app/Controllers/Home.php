@@ -8,8 +8,8 @@ class Home extends BaseController
     {
         return view('welcome_message');
     }
-    public function sobre(){
-        echo "Fiquei quase o dia todo nessa imagem";
+    public function sobre($name){
+        echo "Olá ". $name;
     }
 
     public function wa(){
