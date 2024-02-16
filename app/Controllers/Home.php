@@ -12,7 +12,7 @@ class Home extends BaseController
         if($name){
             echo "<h1>Olá ". $name . "</h1>";
         }else{
-            phpinfo();
+            return view('html/home');
         }
     }
 
