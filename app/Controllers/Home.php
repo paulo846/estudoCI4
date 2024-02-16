@@ -8,8 +8,13 @@ class Home extends BaseController
     {
         return view('welcome_message');
     }
-    public function sobre($name){
-        echo "<h1>Olá ". $name . "</h1>";
+    
+    public function sobre($name = null){
+        if($name){
+            echo "<h1>Olá ". $name . "</h1>";
+        }else{
+            echo "<h1>SOBRE</h1>";
+        }
     }
 
     public function wa(){
