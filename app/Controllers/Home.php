@@ -1,19 +1,18 @@
 <?php
 
 namespace App\Controllers;
-
 class Home extends BaseController
 {
     public function index(): string
     {
         return view('welcome_message');
     }
-    
+
     public function sobre($name = null){
         if($name){
             echo "<h1>Olá ". $name . "</h1>";
         }else{
-            echo "<h1>SOBRE</h1>";
+            phpinfo();
         }
     }
 
