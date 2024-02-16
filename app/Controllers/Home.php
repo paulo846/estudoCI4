@@ -9,7 +9,7 @@ class Home extends BaseController
         return view('welcome_message');
     }
     public function sobre($name){
-        echo "Olá ". $name;
+        echo "<h1>Olá ". $name . "</h1>";
     }
 
     public function wa(){
