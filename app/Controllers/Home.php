@@ -5,7 +5,7 @@ class Home extends BaseController
 {
     public function index(): string
     {
-        return "DEU CERTO REPO 1";
+        return view('welcome_message');
     }
 
     public function sobre($name = null){
