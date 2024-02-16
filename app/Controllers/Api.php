@@ -18,7 +18,7 @@ class Api extends ResourceController
     {
         //
         $data[] = [
-            'name' => 'João',
+            'name' => 'João e Maria',
             'email' => 'joao@gmail.com'
         ];
         return $this->respond($data); 
