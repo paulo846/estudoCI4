@@ -9,7 +9,7 @@ class Home extends BaseController
         return view('welcome_message');
     }
     public function sobre(){
-        echo "Agora ninguém me segura galera :D";
+        echo "Fiquei quase o dia todo nessa imagem";
     }
 
     public function wa(){
